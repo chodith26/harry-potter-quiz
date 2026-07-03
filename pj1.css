@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(23, 0, 0);
+    color: beige;
+    margin: 0;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Light Mode */
+body.light {
+    background-color: beige;
+    color: rgb(23, 0, 0);
+}
+
+.main {
+    height: 90vh;             
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+}
+
+.question-container {
+    text-align: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+button {
+    height: 2rem;
+    width: 11rem;
+    font-size: 16px;       
+    background-color: beige;
+    color: rgb(67, 12, 12);
+    cursor: pointer;
+    border: 1px solid whitesmoke;
+    margin-top: 1rem;
+}
+
+/* Button style in light mode */
+body.light button {
+    background-color: rgb(23, 0, 0);
+    color: beige;
+}
+
+p {
+    font-size: larger;
+}
+
+.theme {
+    width: 7rem;
+    padding: 0.5rem;
+    text-align:right;
+    font-size: 18px;
+    background-color: beige;
+    color: rgb(63, 0, 0);
+    cursor: pointer;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+/* Theme button in light mode */
+body.light .theme {
+    background-color: rgb(23, 0, 0);
+    color: beige;
+}
+
+body.light .arrow {
+    color: rgb(23, 0, 0);   /* dark text so visible on beige background */
+}
+
+.arrow {
+    font-size: 2rem;
+    cursor: pointer;
+    user-select: none;
+    color: beige;
+    transition: opacity 0.3s ease;
+}
+
+.arrow.disabled {
+    opacity: 0.2;
+    cursor: not-allowed;
+}
