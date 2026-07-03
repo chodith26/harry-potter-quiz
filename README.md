@@ -15,6 +15,6 @@ An interactive quiz built with vanilla HTML, CSS and JavaScript as a DOM manipul
 Open 'pj1.html' directly in any browser. No installation required.
 
 ## Author 
-Chodith Sai
+C Sai
 ## Improvements and bug fixing
 Mohan krishna
