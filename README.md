@@ -13,3 +13,6 @@ An interactive quiz built with vanilla HTML, CSS and JavaScript as a DOM manipul
 
 ## How to Run
 Open 'pj1.html' directly in any browser. No installation required.
+
+## Screenshot
+![Harry Potter Quiz Screenshot](screenshot.png)
